@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){$("body").queryLoader2({backgroundColor:"#1F1F1F",percentage:!0,deepSearch:!0,barHeight:0,completeAnimation:"fade",onLoadComplete:function(){(new WOW).init()}}),wow=new WOW({boxClass:"wow",animateClass:"animated",offset:0,mobile:!0,live:!0}),wow.init()});
